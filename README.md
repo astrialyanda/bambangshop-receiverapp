@@ -85,5 +85,7 @@ This is the place for you to write reflections:
 ### Mandatory (Subscriber) Reflections
 
 #### Reflection Subscriber-1
+1. Tutorial ini menggunakan Read-Write Lock karena RwLock dapat memberikan akses pada banyak thread melakukan baca. Mutex tidak dapat digunakan karena Mutex hanya dapat mengakses satu thread.
+2. Bahasa rust mengutamakan thread safety dan concurrency. Variabel static di rust bersifat immutable untuk menjamin thread-safety.
 
 #### Reflection Subscriber-2
