@@ -89,3 +89,6 @@ This is the place for you to write reflections:
 2. Bahasa rust mengutamakan thread safety dan concurrency. Variabel static di rust bersifat immutable untuk menjamin thread-safety.
 
 #### Reflection Subscriber-2
+1. Yang saya pahami, lib.rs berisi hal-hal yang dibutuhkan di program. Seperti error code, dan dependencies
+2. Ya, karena design pattern observer dibuat mengikuti Open-Closed Principle sehingga penambahan subscriber dapat dilakukan tanpa mengubah kode yang sudah ada.
+3. Ya, menggunakan Postman berguna dalam pengerjaan program karena Postman membantu dalam melakukan pengecekan respon dari program. Dengan ini Postman dapat digunakan untuk mengecek kebenaran program.
